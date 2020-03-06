@@ -1,0 +1,73 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    color: slategray;
+    font-family: 'Oxanium', cursive;
+}
+
+.hidden { 
+    display: none;
+}
+
+html, body { 
+    height: 100%
+}
+
+body { 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+html { 
+    overflow: hidden;
+    background-color: slategray;
+}
+
+#nameContainer { 
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 96px;
+    cursor: pointer;
+}
+
+#nameInput { 
+    margin-top: 15px;
+}
+
+#infoContainer { 
+    border-left: 3px solid white;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+
+#tempContainer { 
+    font-weight: 500;
+    font-size: 68px;
+}
+
+#descContainer, #hiloContainer { 
+    font-size: 36px;
+}
+
+#nameText { 
+    font-weight: 900;
+    font-size: 96px;
+    background-color: black;
+    text-align: center;
+    border: none;
+}
+
+#nameSubmit { 
+    margin-top: 30px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    background-color: slategray;
+    cursor: pointer;
+}
