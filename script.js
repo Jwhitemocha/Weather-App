@@ -87,7 +87,7 @@ async function getImage(desc) {
 
 }
 
-getWeatherData('Atlanta');
+getWeatherData('San Jose');
 
 function toFarenheit(kelvin) {
   let farenheit = ((kelvin * 9.0 / 5.0) - 459.67)
